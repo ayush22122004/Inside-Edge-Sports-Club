@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-sizing:border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+}
+.carousel-captio{
+    position: absolute !important;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    margin-top: 170px;
+    margin-left: 90px;
+   
+    
+}
+.carousel-captio h1{
+    font-size: 30px;
+    color:yellow
+}
+.carousel-captio h2{
+    margin-top: 10px;
+    font-size: 100px;
+    
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: black;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+
+.head{
+    justify-content: center;
+}
+.cric1 {
+    display: flex;
+    align-items: center;
+}
+.cric1 img {
+    width: 50%; 
+    height: auto; 
+    border-radius: 3%;
+}
+.cric1 .content {
+    margin-left: 20px; 
+}
+.cric2 {
+    display: flex;
+    align-items: center;
+}
+.cric2 img {
+    width: 50%; 
+    height: auto; 
+    border-radius: 3%;
+}
+.cric2 .content2 {
+    margin-right: 20px; 
+}
+.custom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.custom-content {
+    width: 70%; 
+    padding: 20px;
+    border-radius: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.custom-content .col {
+    padding: 20px;
+}
+.col1{
+    border-radius: 3%;
+}
+.sche{
+    text-align: center;
+    font-size: 80px;
+}
+
+.dropdown-menu {
+    background-color: #343a40; 
+}
+
+
+.dropdown-item {
+    color: #ffffff; 
+}
+
+
+.dropdown-item:hover {
+    color: gray;
+}
+
+
+.navbar-dark .navbar-nav .nav-link.dropdown-toggle {
+    color: #ffffff; 
+}
+
+
+.navbar-dark .navbar-nav .nav-link.dropdown-toggle:hover {
+    color: #ffffff; 
+}
+
+
+.navbar-dark .navbar-toggler-icon {
+    color: #ffffff; 
+}
+.box {
+    max-width: 100%; 
+    height: auto; 
+}
+.sport-content{
+    text-align: center;
+    font-weight: bold;
+}
+.number{
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 42px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.card-img-container {
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+}
+.coach .row .col {
+    padding: 10px; 
+}
+
+.coach .coach-item {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.coach .coach-item img {
+    width: 100%;
+    height: auto;
+}
+
+.coach .coach-item:hover {
+    transform: scale(1.1);
+}
+
+.coach .coach-item .coach-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.coach .coach-item:hover .coach-text {
+    opacity: 1;
+}
+.add{
+    color: white;
+}
+.add h5{
+    font-weight: bold;
+}
